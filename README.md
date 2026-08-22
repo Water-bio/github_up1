@@ -16,13 +16,16 @@
 2. 输入制备参数，预测COD去除率
 3. 绘制温度-去除率折线图
 4. 微生物群落PCoA图绘制（R脚本见 r_analysis.R）
-## 界面预览
-![预测界面](shot/1.png)
-![预测界面](shot/2.png)
-![预测界面](shot/3.png)
 
 ```bash
 # 1.安装依赖
 pip install -r requirements.txt
 # 2. 运行预测界面
 streamlit run app.py
+```
+## 界面预览
+![预测界面](shot/1.png)
+![预测界面](shot/2.png)
+![预测界面](shot/3.png)
+
+
