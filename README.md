@@ -11,15 +11,18 @@
 - COD去除率预测交互界面（Streamlit）
 - 实验数据可视化（折线图、PCoA图等）
 > ⚠️ 仓库内示例数据为模拟生成数据，仅用于功能演示，非正式实验数据。
+## 功能演示：
+1. 上传/读取实验数据（Excel或CSV）
+2. 输入制备参数，预测COD去除率
+3. 绘制温度-去除率折线图
+4. 微生物群落PCoA图绘制（R脚本见 r_analysis.R）
+## 界面预览
+![预测界面](shot/1.png)
+![预测界面](shot/2.png)
+![预测界面](shot/3.png)
 
 ```bash
 # 1.安装依赖
 pip install -r requirements.txt
 # 2. 运行预测界面
 streamlit run app.py
-
-功能演示：
-• 上传/读取实验数据（Excel或CSV）
-• 输入制备参数，预测COD去除率
-• 绘制温度-去除率折线图
-• 微生物群落PCoA图绘制（R脚本见 r_analysis.R）
